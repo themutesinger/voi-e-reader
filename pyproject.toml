@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "voice-reader"
+version = "0.1.0"
+description = ""
+authors = ["Suvan <overmind77s@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+speechrecognition = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
